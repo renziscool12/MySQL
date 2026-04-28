@@ -8,3 +8,9 @@ SELECT name, score
 FROM players
 WHERE score >= 150
 ORDER BY score DESC
+
+-- SHOW PLAYERS WITH 120 SCORES ABOVE SORTED FROM HIGHEST TO LOWEST
+SELECT name, score
+FROM players
+WHERE score >= 120
+ORDER BY score DESC
