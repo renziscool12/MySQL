@@ -1,13 +1,13 @@
-=== INSERTS PLAYERS INTO THE TABLE ===
+--- INSERTS PLAYERS INTO THE TABLE ===
 INSERT INTO players(name, score)
 values
 ('Kapitan', 123),
 ('Joy', 142);
 
-=== SHOWS ALL THE PLAYERS ===
+--- SHOWS ALL THE PLAYERS ===
 SELECT * FROM players
   
-=== DELETING PLAYERS ===
+--- DELETING PLAYERS ===
 DELETE FROM players 
 WHERE id = 5
 
