@@ -1,0 +1,9 @@
+--- COUNTS EVERY PLAYERS INSIDE DATABASE
+
+SELECT count(*) FROM players
+
+--- GROUP BY
+
+SELECT name, COUNT(*)
+FROM players
+GROUP BY name
