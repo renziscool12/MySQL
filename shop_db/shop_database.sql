@@ -23,3 +23,18 @@ VALUES
 ('Suyou', 'Suyou@email.com'),
 ('Yi Sun Shin', 'Yss@email.com'),
 ('Leomord', 'Leomord@email.com')
+
+INSERT INTO products(name, price)
+VALUES
+('Genius Wand', 2100),
+('Hunter Strike', 2150),
+('Endless Battle', 2250),
+('War Axe', 2160);
+
+INSERT INTO orders(user_id, product_id, quantity)
+VALUES
+(1, 124, 3),
+(2, 122, 2),
+(3, 143, 5),
+(4, 150, 1);
+
