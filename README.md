@@ -1,4 +1,4 @@
-What is SQL?
+ ## What is SQL?
 
 SQL (Structured Query Language) is a programming language used to manage and interact with relational databases. It allows users to store, retrieve, update, and delete data efficiently.
 
